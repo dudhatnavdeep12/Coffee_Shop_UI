@@ -1,0 +1,115 @@
+name: coffee_shop_project
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+  flutter_icons:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/coffee.jpg
+    - assets/coffee2.jpg
+    - assets/coffee3.jpg
+    - assets/coffee4.jpg
+    - assets/coffee5.jpg
+    - assets/man.jpg
+    - assets/model.png
+    - assets/model2.jpg
+    - assets/pinkcup.png
+    - assets/star.png
+    - assets/model1.jpg
+    - assets/logo.png
+    - assets/logo1.png
+    - assets/logo2.png
+    - assets/logo3.png
+    - assets/logo4.png
+    - assets/logo5.png
+    - assets/logo6.png
+    - assets/logo7.png
+    - assets/logo8.png
+    - assets/logo9.png
+    - assets/logo10.png
+    - assets/clem-onojeghuo-NT3qP7WbmzE-unsplash.jpg
+    - assets/clifford-VobvKmG-StA-unsplash.jpg
+    - assets/drew-coffman-jUOaONoXJQk-unsplash.jpg
+    - assets/farzad-mohsenvand-pKhfJme9mP0-unsplash.jpg
+    - assets/ian-mackey-SPJfByIDMtY-unsplash.jpg
+    - assets/jordan-plihal-2F8LA55VgzE-unsplash.jpg
+    - assets/katlyn-giberson-OkhcMbf3vQ0-unsplash.jpg
+    - assets/mihai-moisa-Djtc1T38-GY-unsplash.jpg
+    - assets/bob-abednego-sA2q16ON62g-unsplash.jpg
+    - assets/stefan-kunz-6VeIwIf3c_g-unsplash.jpg
+    - assets/gladys-arivia-qjs4Gp2RRAI-unsplash.jpg
+    - assets/rachel-moenning-zjxYwd4HOu0-unsplash.jpg
+    - assets/roman-bozhko-OXXsAafHDeo-unsplash.jpg
+    - assets/sabri-tuzcu-g-erOiuDxro-unsplash.jpg
+    - assets/sincerely-media-VNsdEl1gORk-unsplash.jpg
+    - assets/toa-heftiba-yfaEuuackFw-unsplash.jpg
+    - assets/tomas-jasovsky-d5SZqLkpIrY-unsplash.jpg
+    - assets/tyler-nix-t5o3LebsMSQ-unsplash.jpg
+    - assets/vladimir-proskurovskiy-nldsGQFUG_k-unsplash.jpg
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: varela
+      fonts:
+        - asset: assets/Examples of erosion.ttf
+
+    - family: nunito
+      fonts:
+        - asset: assets/Great Friend.ttf
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
